@@ -1,0 +1,23 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9kNTiEgCjfdW8vwAAAA==[0mtest
+Building in workspace /root/.jenkins/jobs/test/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ffiery/test.git # timeout=10
+Fetching upstream changes from https://github.com/ffiery/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ffiery/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf870f588e2ea8cf8660cfee1aaf557ef0e07b16 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf870f588e2ea8cf8660cfee1aaf557ef0e07b16
+ > git rev-list cf870f588e2ea8cf8660cfee1aaf557ef0e07b16 # timeout=10
+[workspace] $ /bin/sh -xe /opt/tomcat/temp/hudson5138476443626183892.sh
++ sudo ls /opt/
+chef
+chefdk
+docker-influxdb
+influxdb
+rh
+tomcat
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+Started on Jul 23, 2015 11:58:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision cf870f588e2ea8cf8660cfee1aaf557ef0e07b16 (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/ffiery/test.git # timeout=10
+Found 1 remote heads on https://github.com/ffiery/test.git
+[poll] Latest remote head revision on refs/heads/master is: f995fb1c83fd66c08eee19d594d1ccd69630ea1c
+Done. Took 0.58 sec
+Changes found

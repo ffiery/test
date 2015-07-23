@@ -1,0 +1,11 @@
+commit f995fb1c83fd66c08eee19d594d1ccd69630ea1c
+tree cc625536580a19f53d19f6e782d084702ca60390
+parent cf870f588e2ea8cf8660cfee1aaf557ef0e07b16
+author ffiery <g7493659@trbvm.com> 2015-07-23 11:47:07 -0400
+committer ffiery <g7493659@trbvm.com> 2015-07-23 11:47:07 -0400
+
+    testsshauto
+
+
+
+:100644 100644 b2b9cc97bb0f4415ce6fcb16d7a40ccd60fb4a40 f21ff8eb89eac14007462dd650f0f714ad8da82a M	test.txt
