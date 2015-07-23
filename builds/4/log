@@ -1,0 +1,19 @@
+Started by an SCM change
+Building in workspace /root/.jenkins/jobs/test/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ffiery/test.git # timeout=10
+Fetching upstream changes from https://github.com/ffiery/test.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/ffiery/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c4c0654ea3c73a391db58602a62e138b387f9428 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c4c0654ea3c73a391db58602a62e138b387f9428
+ > git rev-list f995fb1c83fd66c08eee19d594d1ccd69630ea1c # timeout=10
+[workspace] $ /bin/sh -xe /opt/tomcat/temp/hudson5178392387366963671.sh
++ cat .jenkins/jobs/test/test.txt
+cat: .jenkins/jobs/test/test.txt: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
