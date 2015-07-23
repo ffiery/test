@@ -33,7 +33,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cat .jenkins/jobs/test/test.txt</command>
+      <command>cat ~/.jenkins/jobs/test/test.txt</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
